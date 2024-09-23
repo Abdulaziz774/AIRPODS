@@ -1,0 +1,216 @@
+@import url(foons.css);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background: #151515;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    padding: 15px 0;
+    margin: 0 auto;
+}
+
+nav {
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-family: "ProstoOne";
+    padding: 6px;
+    font-family: "Montserrat";
+    font-weight: bold;
+    background: #282828;
+}
+
+.header_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_left {
+    display: flex;
+    align-items: center;
+}
+
+.nav_right_ {
+    display: flex;
+}
+
+.nav_right_list {
+    margin-left: 30px;
+}
+
+.nav_left_link {
+    color: #fff;
+    margin-right: 30px;
+    display: inline-block;
+}
+
+/* ------------------------------------------nav end */
+
+.wrap_top {
+    background: url(../imges/Header.png) no-repeat center center / cover;
+    min-height: 600px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.top_title {
+    font-family: "ProstoOne";
+    font-size: 100px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+
+.top_link {
+    font-size: 20px;
+    color: #000;
+    padding: 13px 14px;
+    background: #fff;
+    border-radius: 6px;
+    font-family: "Montserrat_m";
+    text-transform: uppercase;
+}
+
+.top_link::after {
+    content: url(../imges/Vector.png);
+    padding: 17px;
+}
+
+/* --------------------------------------wrap top end */
+
+.section {
+    font-family: "Montserrat";
+    color: #fff;
+}
+
+.card {
+    margin-bottom: 50px;
+    justify-content: space-between;
+    align-items: start;
+    display: flex;
+    column-gap: 78px;
+    position: relative;
+}
+
+.cards .card:nth-of-type(2) {
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.cards .card:nth-of-type(3) {
+    display: flex;
+    align-items: center;
+
+    margin-bottom: 80px;
+
+}
+
+
+.card_tex {
+    position: relative;
+    font-size: 22px;
+    text-align: start;
+    max-width: 538px;
+    width: 100%;
+    font-family: "Montserrat";
+    padding-top: 35px;
+}
+
+.card_tex1 {
+    text-align: end;
+
+}
+
+
+/* ------------------------------------secton cards end */
+
+.praduct {
+    padding: 15px 50px;
+    text-align: center;
+    background: #fff;
+    color: black;
+    max-width: 255px;
+    width: 100%;
+}
+
+.praduct_title {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: "Montserrat_";
+    margin-bottom: 10px;
+}
+
+.praduct_img {
+    margin-bottom: 10px;
+}
+
+.praduct_tex {
+    margin-bottom: 27px;
+    font-family: "Montserrat";
+    font-size: 17px;
+}
+
+.praduct_link {
+    padding: 7px 57px;
+    background: #000;
+    color: #fff;
+}
+
+.praduct_content {
+    display: flex;
+    column-gap: 30px;
+    margin-bottom: 50px;
+}
+
+/* -------------------------------------------------section praduct end */
+
+.footer {
+    width: 100%;
+    background: #282828;
+    padding: 81px;
+}
+
+.cooter_content {
+    display: flex;
+    align-items: center;
+    column-gap: 303px;
+}
+
+.footer_link {
+    display: inline-block;
+    font-weight: bold;
+    color: #fff;
+    font-size: 20px;
+    font-family: "Montserrat_";
+}
+
+.footer_list {
+    display: flex;
+    column-gap: 30px;
+}
+
+.wrap_icon {
+    display: flex;
+    column-gap: 30px;
+}
